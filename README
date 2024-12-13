@@ -1,10 +1,16 @@
 # DAAN 881 - Group 4 (FALL 2024)
 
-## Deliverable 2 - Dataset Creation
-1. Download the MITRE CVE Json List (https://github.com/CVEProject/cvelistV5/releases)[https://github.com/CVEProject/cvelistV5/releases]
-1. Create a __data__ folder inside the Deliverable2 folder
-1. Extract the json dataset into the data __folder__
-1. Extract the sub cve.zip file into generated __cve__ folder under __data__
-1. Download the EPSS dataset (https://www.first.org/epss/data_stats)[https://www.first.org/epss/data_stats]
-1. Extract the dataset into the create __data__
-1. Run the Deliverable2/Dataset.ipynb notebook
+## Datasets
+
+- Overall Dataset - daan881_group4_dataset.csv - Includes all of CVEs harvested from Mitre including CVSS and EPSS da a
+- Cleaned Dataset - Deliverable4/daan881_group4_dataset.cleaned.csv - Dataset after initial data cleaning
+- Final Datasets - Deliverable6/daan881_group4_dataset.train.csv - Dataset created from 1000 groups of 100-500 randomly selected CVEs for training the model
+
+## Code Snippets
+
+Deliverable2/Dataset.ipynb
+Deliverable3/problem_identification.ipynb
+Deliverable4/data_cleaning.ipynb
+Deliverable6/additional_cleaning.ipynb
+Deliverable6/training_data_generation.ipynb
+Deliverable6/modeling.ipynb
